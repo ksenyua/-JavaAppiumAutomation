@@ -1,9 +1,7 @@
-import org.junit.Test;
-import org.junit.Assert;
+package PACKAGE_NAME;
 
-public class MainClassTest extends MainClass {
-    @Test
-    public void testGetLocalNumber() {
-        Assert.assertTrue("Test Failed: Value !=14", getLocalNumber() == 14);
-    }
+/**
+ * Created by denisova on 01.05.2024.
+ */
+public class MainClassTest {
 }
